@@ -12,7 +12,7 @@ class Auth extends CI_Controller {
 	public function index()
 	{
 		
-		$this->template->user('Org/v_profil');
+		$this->template->user('v_dashboard');
 	}
 
 }
